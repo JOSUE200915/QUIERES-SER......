@@ -1,0 +1,50 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: #fff;
+}
+
+/* Animación del fondo */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Título principal */
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #ffe600;
+}
+
+/* Texto descriptivo */
+p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    line-height: 1.8em;
+    text-shadow: 1px 1px 3px rgba(0,
